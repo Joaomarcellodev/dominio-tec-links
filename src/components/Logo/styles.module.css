@@ -16,13 +16,10 @@
     margin-bottom: 2rem;
 }
 
-@media (min-width : 330px) and (max-width: 740px){
+@media (min-width : 340px) and (max-width: 740px){
 
     .logo{
         width: 12rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .title{
