@@ -5,9 +5,9 @@
 }
 
 :root{
-    --background: linear-gradient(to right, #7314EB, #0bcccc);
-    --background-reverse: linear-gradient(to right, #0bcccc, #7314EB);
-    --background-reverse-hover: linear-gradient(to right, #0db6b6, #5a14b1);
+    --background: linear-gradient(to right, #410f7a, #0d8d8d);
+    --background-reverse: linear-gradient(to right, #0bcccc, #410f7a);
+    --background-reverse-hover: linear-gradient(to right, #0db6b6, #32046b);
     --color : #FFFF;
     --font-original: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
