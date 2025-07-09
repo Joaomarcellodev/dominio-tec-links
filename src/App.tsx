@@ -1,3 +1,4 @@
+import { Logo } from "./components/Logo";
 import "./styles/global.css";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
 
   return (
     <>
+      <Logo/>
       <h1>Dominio Tec</h1>
     </>
   )

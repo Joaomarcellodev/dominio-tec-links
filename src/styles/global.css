@@ -5,5 +5,13 @@
 }
 
 :root{
-    --background-image: 
+    --background: linear-gradient(to right, #7314EB, #00FFFF);
+    --color : #FFFF;
+    --font-original: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    background: var(--background);
+    font-family: var(--font-original);
+    color: var(--color);
 }
