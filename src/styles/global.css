@@ -5,13 +5,24 @@
 }
 
 :root{
-    --background: linear-gradient(to right, #7314EB, #00FFFF);
+    --background: linear-gradient(to right, #7314EB, #0bcccc);
+    --background-reverse: linear-gradient(to right, #0bcccc, #7314EB);
+    --background-reverse-hover: linear-gradient(to right, #0db6b6, #5a14b1);
     --color : #FFFF;
     --font-original: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body{
     background: var(--background);
-    font-family: var(--font-original);
-    color: var(--color);
 }
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+

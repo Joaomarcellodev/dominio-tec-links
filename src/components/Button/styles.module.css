@@ -1,0 +1,28 @@
+
+.links{
+    font-weight: bold;
+    color: var(--color);
+    font-family: var(--font-original);
+    text-decoration: none;
+    background: var(--background-reverse);
+    width: 26rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    border-radius: 2rem;
+    transition: 0.8s ease-in-out;
+}
+
+.links:hover{
+    background: #685f5f;
+}
+
+.container-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
