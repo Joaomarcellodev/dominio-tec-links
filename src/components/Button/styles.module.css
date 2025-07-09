@@ -13,11 +13,12 @@
     font-size: 1.2rem;
     white-space: nowrap;
     border-radius: 2rem;
-    transition: 0.8s ease-in-out;
+    transition: 0.5s ease-in-out, transform 0.5s ease;
 }
 
 .links:hover{
-    background: #685f5f;
+    background: #312f2f;
+    transform: scale(1.05);
 }
 
 .container-links{
