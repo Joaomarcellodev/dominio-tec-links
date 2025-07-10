@@ -7,7 +7,7 @@ export function Logo() {
     return (
         <div className={styles['container-logo']}>
             <img className={styles.logo} src={logo} alt="Imagem da dominio" />
-            <h1 className={styles.title}>Dominio Tec</h1>
+            <h1 className={styles.title}>dominio_tec</h1>
         </div>
     )
 }
