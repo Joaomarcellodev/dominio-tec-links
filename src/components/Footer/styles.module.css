@@ -1,0 +1,39 @@
+.container-footer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p{
+    color: var(--color);
+    font-family: var(--font-original);
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: rgb(49, 39, 39);
+}
+
+.footer-a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+@media (min-width : 340px) and (max-width: 780px){
+
+   .footer-p{
+    font-size: 0.8rem;
+   }
+
+   .footer-a{
+    font-size: 0.8rem;
+   }
+
+    
+}

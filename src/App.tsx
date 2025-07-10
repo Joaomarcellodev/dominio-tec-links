@@ -1,4 +1,5 @@
 import { Button } from "./components/Button";
+import { Footer } from "./components/Footer";
 import { Logo } from "./components/Logo";
 import "./styles/global.css";
 
@@ -9,7 +10,8 @@ function App() {
     <> 
       <div className="center">
         <Logo/>
-        <Button/>
+        <Button />
+        <Footer/>
       </div>
       
     </>
