@@ -1,69 +1,91 @@
-# React + TypeScript + Vite
+<h1 align="center">🌐 Dominio Tec - Agregador de Links 🌐</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <i>Centralize seus links favoritos em um só lugar, com rapidez e estilo! 🚀</i>
+</p>
 
-Currently, two official plugins are available:
+## 📖 Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Dominio Tec** é um agregador de links desenvolvido com **React**, **TypeScript** e **CSS**, criado para facilitar o acesso rápido às suas páginas e recursos digitais favoritos, de forma organizada, responsiva e com uma interface moderna. 🖥️📱✨
 
-## Expanding the ESLint configuration
+### 🚀 Aprendizados e Tecnologias
+- Desenvolvimento de interfaces dinâmicas com **React**.
+- Tipagem estática e segurança com **TypeScript**.
+- Estilização modular e responsiva usando **CSS**.
+- Gerenciamento eficiente de estado e navegação intuitiva.
+- Implementação de melhores práticas para acessibilidade e performance.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌟 Prévia do Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### 💻 Desktop
+<p align="center">
+  <img height="400" src="https://github.com/Joaomarcellodev/dominio-tec-links/blob/main/src/assets/desktop.png?raw=true" alt="Prévia do Dominio Tec no Desktop" />
+</p>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📱 Mobile
+<p align="center">
+  <img height="400" src="https://github.com/Joaomarcellodev/dominio-tec-links/blob/main/src/assets/mobile.png?raw=true" alt="Prévia do Dominio Tec no Mobile" />
+</p>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tecnologias Utilizadas
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="React logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="TypeScript logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="CSS3 logo" />
+</p>
+
+---
+
+## 🛠️ Como Usar
+
+1. Clone o repositório para sua máquina local:
+
+   ```bash
+   git clone https://github.com/SEU_USUARIO/DominioTec.git
+
+2. Acesse a pasta do projeto:
+
+   ```bash
+   cd DominioTec
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+    # ou
+    yarn install
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm start
+    # ou
+    yarn start
+
+5. E por ultimo:
+
+   ```bash
+   Abra http://localhost:3000 para visualizar no navegador.
+
+
+
+
+
+## 🌟 Contribuição
+
+Contribuições são super bem-vindas!  
+Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+## 📞 Contato
+
+- **Autor**: [João Marcello](https://github.com/Joaomarcellodev)  
+- **LinkedIn**: [João Marcello](https://www.linkedin.com/in/joaomarcellodev/)  
+- **Email**: joaomarcellobraz@gmail.com
